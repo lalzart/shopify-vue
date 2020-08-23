@@ -27,6 +27,8 @@
     "copyfiles": "^2.1.0",
     "css-loader": "^2.1.0",
     "cssnano": "^4.1.8",
+    "deepmerge": "^4.2.2",
+    "fibers": "^5.0.0",
     "lost": "^8.3.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-watch": "^0.6.0",
@@ -44,6 +46,7 @@
     "postcss-utilities": "^0.8.0",
     "precss": "^4.0.0",
     "rimraf": "^2.6.3",
+    "sass": "^1.26.10",
     "style-loader": "^0.23.1",
     "vue-loader": "^15.5.1",
     "vue-style-loader": "^4.1.2",
@@ -61,8 +64,10 @@
   },
   "dependencies": {
     "document-register-element": "^1.13.1",
+    "sass-loader": "^9.0.3",
     "vue": "^2.5.21",
     "vue-custom-element": "^3.2.6",
+    "vuetify": "^2.3.9",
     "vuex": "^3.0.1"
   }
 }

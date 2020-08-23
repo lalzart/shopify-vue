@@ -5,6 +5,7 @@ import "document-register-element";
 import filters from "./filters";
 import plugins from "./plugins";
 import components from "./components";
+import 'vuetify/dist/vuetify.min.css'
 
 Vue.config.devtools = true;
 Vue.use(Vuex);

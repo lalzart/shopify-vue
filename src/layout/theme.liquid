@@ -7,23 +7,15 @@
   <meta name="theme-color" content="">
   <link rel="canonical" href="{{ canonical_url }}">
   <title>{{ shop.name }}</title>
-
-  <!--------- Global Styles --------->
   {{ 'index.css' | asset_url | stylesheet_tag }}
-  <!--------- Global Fonts --------->
   {{ 'fonts.css' | asset_url | stylesheet_tag }}
-
   <meta name="description" content="">
-
   {{ content_for_header }}
 </head>
 
 <body>
-
-  <vue-example external-prop="Hello from Shopify!"></vue-example>
   {{ content_for_layout }}
-
-  <!--------- Global Scripts --------->
   {{ 'index.js' | asset_url | script_tag }}
 </body>
+
 </html>
